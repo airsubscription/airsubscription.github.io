@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注文 | AIR: The Subscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌬️ AIR: The Subscription</h1>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="plans.html">プラン</a>
+            <a href="order.html">注文</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-form">
+            <h2>今すぐ空気を注文！</h2>
+            <form action="thankyou.html">
+                <label for="plan">プランを選択：</label>
+                <select id="plan">
+                    <option>Free（¥0/月）</option>
+                    <option>Standard（¥980/月）</option>
+                    <option>Premium（¥4,980/月）</option>
+                    <option>ナチュラルブリーズ（¥980/月）</option>
+                    <option>シティスモーク（¥1,480/月）</option>
+                    <option>レジェンドライブ（¥4,980/月）</option>
+                    <option>プレミアムコレクション（¥9,800/月）</option>
+                    <option>一生吸い放題プラン（¥1,000,000/一括）</option>
+                    <option>激安プラン（¥1/月）</option>
+                    <option>宇宙の空気（¥99,999/月）</option>
+                </select>
+                <br>
+                <label for="address">お届け先の緯度・経度（GPS必須）：</label>
+                <input type="text" id="address" placeholder="例: 35.6895, 139.6917">
+                <br>
+                <label for="schedule">定期吸引スケジュール：</label>
+                <input type="text" id="schedule" placeholder="例: 朝8時と夜10時に吸いたい">
+                <br>
+                <label for="notes">吸い方の希望：</label>
+                <textarea id="notes" placeholder="例: ゆっくり吸いたい / 一気に吸いたい"></textarea>
+                <br>
+                <button type="submit" class="btn">注文する</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 AIR Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
